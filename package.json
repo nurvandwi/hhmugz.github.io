@@ -10,5 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.11.0"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^3.0.0"
   }
 }
