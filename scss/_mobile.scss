@@ -1,0 +1,57 @@
+// widescreens 
+@include mediaXL {
+
+}
+
+// Destop & laptop
+@include mediaLg {
+    
+}
+
+// Tablet dll 
+@include mediaMd {
+    main{
+        align-items: center;
+        text-align: center;
+
+        .lg-heading{
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+    }
+
+    ul.menu-nav,div.menu-branding{
+        float: none;
+        width: 100%;
+        min-height: 0;
+        
+        &.show{
+            transform: translate3d(0,0,0);
+        }
+    }
+
+    .menu-nav{
+        height: 65vh;
+        transform: translate3d(-100%,0,0);
+        font-size: 24px;
+    }
+    .menu-branding{
+        height: 35vh;
+        transform: translate3d(100%,0,0);
+    
+    .portrait{
+        background: url(/);
+        width: 120px;
+        height: 120px;
+    }
+    }
+}
+
+
+// Hp 
+@include mediaSm {
+    main#home h1{
+        margin-top: 10vh;
+    }
+    
+}
